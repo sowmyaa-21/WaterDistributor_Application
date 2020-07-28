@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dealer_registeration">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background_ting"
+        android:textColor="#FFFCFF"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/registertext"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="105dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="545dp"
+        android:text="REGISTRATION"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="44dp" />
+
+    <TextView
+        android:id="@+id/textviewcname"
+        android:layout_width="106dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@id/registertext"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="293dp"
+        android:layout_marginBottom="-96dp"
+        android:text="Company Name"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_text_cname"
+        android:layout_width="245dp"
+        android:layout_height="57dp"
+        android:layout_alignRight="@id/textviewcname"
+        android:layout_alignBottom="@id/registertext"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="-279dp"
+        android:layout_marginBottom="-102dp"
+        android:layout_weight=".75"
+        android:background="@drawable/edit_text_round" />
+
+    <TextView
+        android:id="@+id/textviewname"
+        android:layout_width="92dp"
+        android:layout_height="41dp"
+        android:layout_alignBottom="@id/textviewcname"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="305dp"
+        android:layout_marginBottom="-99dp"
+        android:text="Name"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_text_name"
+        android:layout_width="245dp"
+        android:layout_height="57dp"
+        android:layout_alignRight="@id/textviewname"
+        android:layout_alignBottom="@id/edit_text_cname"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="-279dp"
+        android:layout_marginBottom="-102dp"
+        android:layout_weight=".75"
+        android:background="@drawable/edit_text_round" />
+
+    <TextView
+        android:id="@+id/textviewlocation"
+        android:layout_width="106dp"
+        android:layout_height="47dp"
+        android:layout_alignBottom="@id/textviewname"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="289dp"
+        android:layout_marginBottom="-101dp"
+        android:text="Location"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_text_location"
+        android:layout_width="245dp"
+        android:layout_height="57dp"
+        android:layout_alignRight="@id/textviewlocation"
+        android:layout_alignBottom="@id/edit_text_name"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="-279dp"
+        android:layout_marginBottom="-102dp"
+        android:layout_weight=".75"
+        android:background="@drawable/edit_text_round" />
+
+    <TextView
+        android:id="@+id/textviewmobno"
+        android:layout_width="106dp"
+        android:layout_height="47dp"
+        android:layout_alignBottom="@id/textviewlocation"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="294dp"
+        android:layout_marginBottom="-97dp"
+        android:text="Phone Number"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_text_mobno"
+        android:layout_width="245dp"
+        android:layout_height="57dp"
+        android:layout_alignRight="@id/textviewmobno"
+        android:layout_alignBottom="@id/edit_text_location"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="-279dp"
+        android:layout_marginBottom="-102dp"
+        android:layout_weight=".75"
+        android:inputType="phone"
+        android:background="@drawable/edit_text_round" />
+
+    <Button
+        android:id="@+id/submitbutton"
+        android:layout_width="115dp"
+        android:layout_height="34dp"
+        android:layout_alignBottom="@id/textviewmobno"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-130dp"
+        android:background="@drawable/custom_button2"
+        android:text="register" />
+
+
+
+</RelativeLayout>

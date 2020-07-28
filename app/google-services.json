@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "149988935309",
+    "firebase_url": "https://waterdistributorapplication.firebaseio.com",
+    "project_id": "waterdistributorapplication",
+    "storage_bucket": "waterdistributorapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149988935309:android:c0c2dc006c0d1ffb1684c4",
+        "android_client_info": {
+          "package_name": "com.example.waterdistributorapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149988935309-s0qv85jo7sjtkfho0sn0cq2iabhb33s9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.waterdistributorapplication",
+            "certificate_hash": "beb29ef224e3da3251a3253f7c442d5081cfd27d"
+          }
+        },
+        {
+          "client_id": "149988935309-ieosrsomeic8p2aerjfjhed2tgvjjesv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBS39ivEaWxJfWgDk1HXiX1qls1CiwAKi4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149988935309-ieosrsomeic8p2aerjfjhed2tgvjjesv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

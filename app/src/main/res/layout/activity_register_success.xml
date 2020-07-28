@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_blue"
+    android:orientation="vertical"
+    tools:context=".register_success">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginTop="205dp"
+        android:text="Thank you for registering.Your customers will call you"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small"
+        android:textSize="36sp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="109dp"
+        android:layout_height="105dp"
+        android:layout_alignBottom="@+id/textview"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="165dp"
+        android:layout_marginBottom="-185dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/bblue"
+        app:srcCompat="@drawable/ic_home_black_24dp" />
+
+
+</RelativeLayout>

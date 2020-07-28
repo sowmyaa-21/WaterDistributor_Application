@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    card_view:contentPadding="16dp" card_view:cardElevation="2dp"
+    card_view:cardCornerRadius="5dp">
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/selector">
+    <TextView
+        android:id="@+id/companynamedisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Company Name:"
+        android:layout_marginLeft="8dp"
+        android:textSize="15sp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/companynametext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-210dp"
+        android:layout_toRightOf="@+id/companynamedisplay"
+        android:text="Company name"
+        android:textColor="#000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/namedisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/companynamedisplay"
+        android:text="Name:"
+        android:layout_marginLeft="8dp"
+        android:textColor="#000"
+        android:textDirection="locale"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/nametext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-214dp"
+        android:layout_toRightOf="@+id/namedisplay"
+        android:layout_below="@+id/companynametext"
+        android:text="name"
+        android:textSize="15sp"
+        android:textColor="#000"/>
+    <TextView
+        android:id="@+id/locationdisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/namedisplay"
+        android:layout_marginLeft="8dp"
+        android:text="Location:"
+        android:textColor="#000"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/locationtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="location"
+        android:layout_marginLeft="-214dp"
+        android:layout_toRightOf="@+id/locationdisplay"
+        android:layout_below="@id/nametext"
+        android:textSize="15sp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/phonedisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/locationdisplay"
+        android:layout_marginLeft="8dp"
+        android:text="PhoneNumber:"
+        android:textColor="#000"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/phonetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone number"
+        android:layout_marginLeft="-214dp"
+        android:layout_toRightOf="@+id/phonedisplay"
+        android:layout_below="@id/locationtext"
+        android:textSize="15sp"
+        android:textColor="#000"/>
+
+        <ImageButton
+            android:id="@+id/callButton"
+            android:layout_width="83dp"
+            android:layout_height="39dp"
+            android:layout_below="@+id/phonetext"
+            android:layout_alignEnd="@+id/phonetext"
+            android:layout_marginTop="-8dp"
+            android:background="@drawable/custom_button"
+            android:contextClickable="true"
+            app:srcCompat="@drawable/ic_call_black_24dp" />
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
